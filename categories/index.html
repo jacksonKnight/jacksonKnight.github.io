@@ -343,13 +343,10 @@
     </div>
 </div>
 
-
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-</script>
-
+    <script>
+        // 每天切换 banner 图.  Switch banner image every day.
+        $('.bg-cover').css('background-image', 'url(/medias/banner/6.jpg)');
+    </script>
 
     </div>
 </div>
@@ -368,20 +365,20 @@
                 
                 
                 
-                <a href="/categories/JavaScript/" title="JavaScript: 2">
+                <a href="/categories/Vue/" title="Vue: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F9EBEA;">JavaScript
+                            style="background-color: #F9EBEA;">Vue
                         <span class="tag-length">2</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/Vue/" title="Vue: 2">
+                <a href="/categories/Vue/React/" title="React: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F5EEF8;">Vue
-                        <span class="tag-length">2</span>
+                            style="background-color: #F5EEF8;">React
+                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
@@ -404,11 +401,11 @@
                 </a>
                 
                 
-                <a href="/categories/Vue/React/" title="React: 1">
+                <a href="/categories/JavaScript/" title="JavaScript: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #FEF9E7;">React
-                        <span class="tag-length">1</span>
+                            style="background-color: #FEF9E7;">JavaScript
+                        <span class="tag-length">2</span>
                     </span>
                 </a>
                 
@@ -455,7 +452,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"JavaScript","max":3},{"name":"Vue","max":3},{"name":"HTML","max":3},{"name":"CSS","max":3},{"name":"React","max":3}],
+            indicator: [{"name":"Vue","max":3},{"name":"React","max":3},{"name":"HTML","max":3},{"name":"CSS","max":3},{"name":"JavaScript","max":3}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -466,7 +463,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [2,2,1,1,1],
+                    value : [2,1,1,1,2],
                     name : '文章分类数量'
                 }
             ]
@@ -776,11 +773,12 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
      
-{% if theme.fireworks %}
+    {% if theme.fireworks %}
     <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
     <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
     <script type="text/javascript" src="/js/src/fireworks.js"></script>
-{% endif %}
+    {% endif %}
+
 
 </body>
 
