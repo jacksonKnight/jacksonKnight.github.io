@@ -313,7 +313,7 @@
         <div class="brand">
             <div class="title center-align">
                 
-                    subtitle
+                Welcome to my Blog
                 
             </div>
 
@@ -325,9 +325,9 @@
                     var typed = new Typed("#subtitle", {
                         strings: [ 
                             
-                                "人生的价值,并不是用时间,而是用深度去衡量的. —— 列夫·托尔斯泰",
+                                "不鸣则已 一鸣惊人",
                             
-                                "The value of life, not time, but used to measure the depth. -- Lev Tolstoy",
+                                "It never rains but it pours",
                             
                         ],
                         startDelay: 300,
@@ -616,13 +616,13 @@
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
-    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <a href="https://jacksonknight.github.io/" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
 
 
 
-    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <a href="mailto:13422155836@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
         <i class="fas fa-envelope-open"></i>
     </a>
 
@@ -632,7 +632,7 @@
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=3073817599" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 3073817599" data-position="top" data-delay="50">
         <i class="fab fa-qq"></i>
     </a>
 
@@ -804,6 +804,11 @@ $(function () {
     <!--腾讯兔小巢-->
     
     
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
+    
 
     
 
@@ -812,7 +817,12 @@ $(function () {
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
-
+     
+{% if theme.fireworks %}
+    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+    <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+    <script type="text/javascript" src="/js/src/fireworks.js"></script>
+{% endif %}
 
 </body>
 
