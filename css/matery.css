@@ -294,11 +294,6 @@ header .brand-logo .logo-img {
     vertical-align: middle;
     padding-bottom: 6px;
 	border-radius: 60%; 
-	transition: 2s all; 
-}
-
-header .brand-logo .logo-img:hover { 
-    transform: rotate(360deg);
 }
 
 header .brand-logo .logo-span {
