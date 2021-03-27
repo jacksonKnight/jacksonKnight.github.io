@@ -32,14 +32,14 @@
       </tags>
   </entry>
   <entry>
-    <title>初识JavaScript</title>
-    <url>/posts/6e566f2f.html</url>
+    <title>初识CSS</title>
+    <url>/posts/49131c96.html</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>JavaScript</category>
+        <category>CSS</category>
       </categories>
       <tags>
-        <tag>JavaScript</tag>
+        <tag>CSS</tag>
       </tags>
   </entry>
   <entry>
@@ -62,17 +62,6 @@
       </categories>
       <tags>
         <tag>JavaScript</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>初识CSS</title>
-    <url>/posts/49131c96.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>CSS</category>
-      </categories>
-      <tags>
-        <tag>CSS</tag>
       </tags>
   </entry>
   <entry>
@@ -125,6 +114,17 @@
       </categories>
       <tags>
         <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>初识JavaScript</title>
+    <url>/posts/6e566f2f.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
       </tags>
   </entry>
   <entry>
