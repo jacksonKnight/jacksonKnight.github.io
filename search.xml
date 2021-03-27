@@ -1,143 +1,193 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>初识CSS</title>
-    <url>/posts/49131c96.html</url>
-    <content><![CDATA[]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>事件冒泡与事件委托</title>
+      <link href="posts/d578a49e.html"/>
+      <url>posts/d578a49e.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
       <categories>
-        <category>CSS</category>
+          
+          <category> JavaScript </category>
+          
       </categories>
-      <tags>
-        <tag>CSS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Vue与React的区别</title>
-    <url>/posts/4d6df6e0.html</url>
-    <content><![CDATA[]]></content>
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue与React的区别</title>
+      <link href="posts/4d6df6e0.html"/>
+      <url>posts/4d6df6e0.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
       <categories>
-        <category>Vue</category>
-        <category>React</category>
+          
+          <category> Vue </category>
+          
+          <category> React </category>
+          
       </categories>
-      <tags>
-        <tag>Vue</tag>
-        <tag>React</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/posts/4a17b156.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>事件冒泡与事件委托</title>
-    <url>/posts/d578a49e.html</url>
-    <content><![CDATA[]]></content>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+            <tag> React </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>初识Vue</title>
+      <link href="posts/5f9a6bb0.html"/>
+      <url>posts/5f9a6bb0.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
       <categories>
-        <category>JavaScript</category>
+          
+          <category> Vue </category>
+          
       </categories>
-      <tags>
-        <tag>JavaScript</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>初识HTML</title>
-    <url>/posts/b2426900.html</url>
-    <content><![CDATA[<h4 id="1"><a href="#1" class="headerlink" title="1"></a>1</h4><table>
-<thead>
-<tr>
-<th>x</th>
-<th>d</th>
-<th>7</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>d</td>
-<td>d</td>
-<td>d</td>
-</tr>
-<tr>
-<td>d</td>
-<td>d</td>
-<td>d</td>
-</tr>
-<tr>
-<td></td>
-<td>d</td>
-<td>d</td>
-</tr>
-</tbody></table>
-<p>代码测试：</p>
-<pre class=" language-python"><code class="language-python">console<span class="token punctuation">.</span>log<span class="token punctuation">(</span><span class="token string">"你好呀！！！！"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
-<p>注意：这里因为我放在md文件中的，所以加上了\，不解析```，实际测试时请去掉\。</p>
-<p>图片测试：</p>
-<p><img src="http://mculover666.cn/blog/20191031/R4mWMXsrRKxu.png?imageslim"></p>
-<p>引用测试：</p>
-<blockquote>
-<p>这是一条引用</p>
-</blockquote>
-<h4 id="2"><a href="#2" class="headerlink" title="2"></a>2</h4><p>无序列表测试：</p>
-<ul>
-<li>哈哈</li>
-<li>嘿嘿</li>
-<li>吼吼</li>
-</ul>
-<h4 id="3"><a href="#3" class="headerlink" title="3"></a>3</h4><h4 id="4"><a href="#4" class="headerlink" title="4"></a>4</h4><p>参考文献:<a href="https://www.baidu.com/">百度</a></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>初识JavaScript</title>
+      <link href="posts/6e566f2f.html"/>
+      <url>posts/6e566f2f.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
       <categories>
-        <category>HTML</category>
+          
+          <category> JavaScript </category>
+          
       </categories>
-      <tags>
-        <tag>HTML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>初识JavaScript</title>
-    <url>/posts/6e566f2f.html</url>
-    <content><![CDATA[]]></content>
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>初识CSS</title>
+      <link href="posts/49131c96.html"/>
+      <url>posts/49131c96.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
       <categories>
-        <category>JavaScript</category>
+          
+          <category> CSS </category>
+          
       </categories>
-      <tags>
-        <tag>JavaScript</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>初识Vue</title>
-    <url>/posts/5f9a6bb0.html</url>
-    <content><![CDATA[]]></content>
+      
+      
+        <tags>
+            
+            <tag> CSS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>初识HTML</title>
+      <link href="posts/b2426900.html"/>
+      <url>posts/b2426900.html</url>
+      
+        <content type="html"><![CDATA[<h4 id="1"><a href="#1" class="headerlink" title="1"></a>1</h4><table><thead><tr><th>x</th><th>d</th><th>7</th></tr></thead><tbody><tr><td>d</td><td>d</td><td>d</td></tr><tr><td>d</td><td>d</td><td>d</td></tr><tr><td></td><td>d</td><td>d</td></tr></tbody></table><p>代码测试：</p><pre class=" language-python"><code class="language-python">console<span class="token punctuation">.</span>log<span class="token punctuation">(</span><span class="token string">"你好呀！！！！"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre><p>注意：这里因为我放在md文件中的，所以加上了\，不解析```，实际测试时请去掉\。</p><p>图片测试：</p><p><img src="http://mculover666.cn/blog/20191031/R4mWMXsrRKxu.png?imageslim"></p><p>引用测试：</p><blockquote><p>这是一条引用</p></blockquote><h4 id="2"><a href="#2" class="headerlink" title="2"></a>2</h4><p>无序列表测试：</p><ul><li>哈哈</li><li>嘿嘿</li><li>吼吼</li></ul><h4 id="3"><a href="#3" class="headerlink" title="3"></a>3</h4><h4 id="4"><a href="#4" class="headerlink" title="4"></a>4</h4><p>参考文献:<a href="https://www.baidu.com/">百度</a></p>]]></content>
+      
+      
       <categories>
-        <category>Vue</category>
+          
+          <category> HTML </category>
+          
       </categories>
-      <tags>
-        <tag>Vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的第一篇博客文章</title>
-    <url>/posts/b24dd347.html</url>
-    <content><![CDATA[<p>##第一章<br>内容：</p>
-<hr>
-<p>##第二章<br>内容：</p>
-<hr>
-<p>##参考文献<br><a href="https://jacksonknight.github.io/">https://jacksonKnight.github.io</a></p>
-]]></content>
-      <tags>
-        <tag>HTML</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的第一篇博客文章</title>
+      <link href="posts/b24dd347.html"/>
+      <url>posts/b24dd347.html</url>
+      
+        <content type="html"><![CDATA[<p>##第一章<br>内容：</p><hr><p>##第二章<br>内容：</p><hr><p>##参考文献<br><a href="https://jacksonknight.github.io/">https://jacksonKnight.github.io</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="posts/4a17b156.html"/>
+      <url>posts/4a17b156.html</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>
