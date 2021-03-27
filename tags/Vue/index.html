@@ -345,7 +345,7 @@
 
     <script>
         // 每天切换 banner 图.  Switch banner image every day.
-        $('.bg-cover').css('background-image', 'url(/medias/banner/6.jpg)');
+        $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
     </script>
 
     </div>
@@ -364,28 +364,10 @@
             <div class="tag-chips">
                 
                 
-                <a href="/tags/Vue/" title="Vue: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            data-tagname="Vue" style="background-color: #F9EBEA;">Vue
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/React/" title="React: 1">
+                <a href="/tags/JavaScript/" title="JavaScript: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="React" style="background-color: #F5EEF8;">React
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/HTML/" title="HTML: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="HTML" style="background-color: #D5F5E3;">HTML
+                            data-tagname="JavaScript" style="background-color: #F9EBEA;">JavaScript
                         <span class="tag-length">2</span>
                     </span>
                 </a>
@@ -394,16 +376,34 @@
                 <a href="/tags/CSS/" title="CSS: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="CSS" style="background-color: #E8F8F5;">CSS
+                            data-tagname="CSS" style="background-color: #F5EEF8;">CSS
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/JavaScript/" title="JavaScript: 2">
+                <a href="/tags/Vue/" title="Vue: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="Vue" style="background-color: #D5F5E3;">Vue
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/React/" title="React: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="JavaScript" style="background-color: #FEF9E7;">JavaScript
+                            data-tagname="React" style="background-color: #E8F8F5;">React
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/HTML/" title="HTML: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="HTML" style="background-color: #FEF9E7;">HTML
                         <span class="tag-length">2</span>
                     </span>
                 </a>
@@ -787,14 +787,10 @@ $(function () {
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
-     
-    {% if theme.fireworks %}
-    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
-    <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
-    <script type="text/javascript" src="/js/src/fireworks.js"></script>
-    {% endif %}
+     <!--单击显示文字-->
+<script type="text/javascript" src="/js/click_show_text.js"></script>
 
 
-</body>
+<script src="/node_modules/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"node_modules/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/node_modules/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.7},"log":false});</script></body>
 
 </html>
