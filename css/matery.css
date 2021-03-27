@@ -34,6 +34,8 @@
 }
 
 body {
+	background-image: url(https://images2.alphacoders.com/107/1071826.jpg);
+	cursor: url(https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@2.1.6/images/mouse.cur),auto;
     background-color: #eaeaea;
     margin: 0;
     color: #34495e;
@@ -286,8 +288,18 @@ header .nav-transparent {
 }
 
 header nav .brand-span {
+	zoom: 1;
     font-size: 1.45rem;
 }
+
+header nav .brand-span:after {
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	content: ".";
+}
+
 
 header .brand-logo .logo-img { 
     height: 45px;
@@ -303,6 +315,16 @@ header .brand-logo .logo-span {
 /*修改顶部 logo 的文字垂直对齐为 top，避免默认 middle 看起来偏下*/
 header .brand-logo .waves-effect {
     vertical-align: top;
+}
+
+header .brand-logo .waves-effect #binft {
+	white-space:nowrap; /*文本不换行*/
+	/*text-overflow:ellipsis;/*设置超出部分显示...*/
+	overflow: hidden;
+	max-width: 60px;
+	margin: 6px 3px;
+	float: right;
+	font-size: 0.78rem;
 }
 
 header .button-collapse i {
@@ -2141,4 +2163,14 @@ footer .copy-right {
     height: 50px;
     padding: 0;
     margin: 0;
+}
+canvas {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  z-index: -1;
 }
