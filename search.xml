@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>事件冒泡与事件委托</title>
+    <url>/posts/d578a49e.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/posts/4a17b156.html</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -32,14 +43,59 @@
       </tags>
   </entry>
   <entry>
-    <title>事件冒泡与事件委托</title>
-    <url>/posts/d578a49e.html</url>
+    <title>初识JavaScript</title>
+    <url>/posts/6e566f2f.html</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>JavaScript</category>
       </categories>
       <tags>
         <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>初识HTML</title>
+    <url>/posts/b2426900.html</url>
+    <content><![CDATA[<h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><blockquote>
+<p>HTML是一种用来描述网页的超文本语言，也是构成网页文档的主要语言。</p>
+</blockquote>
+<h4 id="HTML的主要网页结构"><a href="#HTML的主要网页结构" class="headerlink" title="HTML的主要网页结构"></a>HTML的主要网页结构</h4><p> 1.header标签:头部分结构<br> 2.nav标签:导航条部分结构<br> 3.main标签:主核心部分内容<br> 4.footer标签:页尾</p>
+<p>代码示例：</p>
+<pre class=" language-html"><code class="language-html">1 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
+2 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span><span class="token punctuation">></span></span>...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">></span></span>
+3 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span><span class="token punctuation">></span></span>...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">></span></span>
+4 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span><span class="token punctuation">></span></span>...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">></span></span>
+5 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>footer</span><span class="token punctuation">></span></span>...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>footer</span><span class="token punctuation">></span></span>
+6 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
+</code></pre>
+<h4 id="HTML的页面优化"><a href="#HTML的页面优化" class="headerlink" title="HTML的页面优化"></a>HTML的页面优化</h4><p> 1.减少网站对http的请求</p>
+<p> 2.css文件写在头部</p>
+<p> 3.javascript文件写在尾部或者异步</p>
+<p> 4.减少dom节点</p>
+<p> 5.减少重绘和回流</p>
+<p> 6.压缩图片 </p>
+<blockquote>
+<p>png: 无损压缩的图片格式  带透明通道 （小图）      jpeg  有损压缩 （大图）     gif  带透明通道   带动态通道  有损压缩的格式（动图）</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>HTML</category>
+      </categories>
+      <tags>
+        <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇博客文章</title>
+    <url>/posts/b24dd347.html</url>
+    <content><![CDATA[<p>##第一章<br>内容：</p>
+<hr>
+<p>##第二章<br>内容：</p>
+<hr>
+<p>##参考文献<br><a href="https://jacksonknight.github.io/">https://jacksonKnight.github.io</a></p>
+]]></content>
+      <tags>
+        <tag>HTML</tag>
       </tags>
   </entry>
   <entry>
@@ -109,49 +165,6 @@
       </tags>
   </entry>
   <entry>
-    <title>初识HTML</title>
-    <url>/posts/b2426900.html</url>
-    <content><![CDATA[<h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><blockquote>
-<p>HTML是一种用来描述网页的超文本语言，也是构成网页文档的主要语言。</p>
-</blockquote>
-<h4 id="HTML的主要网页结构"><a href="#HTML的主要网页结构" class="headerlink" title="HTML的主要网页结构"></a>HTML的主要网页结构</h4><p> 1.header标签:头部分结构<br> 2.nav标签:导航条部分结构<br> 3.main标签:主核心部分内容<br> 4.footer标签:页尾</p>
-<p>代码示例：</p>
-<pre class=" language-html"><code class="language-html">1 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
-2 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span><span class="token punctuation">></span></span>...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">></span></span>
-3 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span><span class="token punctuation">></span></span>...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">></span></span>
-4 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span><span class="token punctuation">></span></span>...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">></span></span>
-5 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>footer</span><span class="token punctuation">></span></span>...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>footer</span><span class="token punctuation">></span></span>
-6 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
-</code></pre>
-<h4 id="HTML的页面优化"><a href="#HTML的页面优化" class="headerlink" title="HTML的页面优化"></a>HTML的页面优化</h4><p> 1.减少网站对http的请求</p>
-<p> 2.css文件写在头部</p>
-<p> 3.javascript文件写在尾部或者异步</p>
-<p> 4.减少dom节点</p>
-<p> 5.减少重绘和回流</p>
-<p> 6.压缩图片 </p>
-<blockquote>
-<p>png: 无损压缩的图片格式  带透明通道 （小图）      jpeg  有损压缩 （大图）     gif  带透明通道   带动态通道  有损压缩的格式（动图）</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>HTML</category>
-      </categories>
-      <tags>
-        <tag>HTML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>初识JavaScript</title>
-    <url>/posts/6e566f2f.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>JavaScript</category>
-      </categories>
-      <tags>
-        <tag>JavaScript</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>初识Vue</title>
     <url>/posts/5f9a6bb0.html</url>
     <content><![CDATA[]]></content>
@@ -160,19 +173,6 @@
       </categories>
       <tags>
         <tag>Vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的第一篇博客文章</title>
-    <url>/posts/b24dd347.html</url>
-    <content><![CDATA[<p>##第一章<br>内容：</p>
-<hr>
-<p>##第二章<br>内容：</p>
-<hr>
-<p>##参考文献<br><a href="https://jacksonknight.github.io/">https://jacksonKnight.github.io</a></p>
-]]></content>
-      <tags>
-        <tag>HTML</tag>
       </tags>
   </entry>
 </search>
