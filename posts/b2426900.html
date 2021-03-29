@@ -508,14 +508,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-03-28
+                    2021-03-29
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    85
+                    204
                 </div>
                 
 
@@ -542,47 +542,27 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h4 id="1"><a href="#1" class="headerlink" title="1"></a>1</h4><table>
-<thead>
-<tr>
-<th>x</th>
-<th>d</th>
-<th>7</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>d</td>
-<td>d</td>
-<td>d</td>
-</tr>
-<tr>
-<td>d</td>
-<td>d</td>
-<td>d</td>
-</tr>
-<tr>
-<td></td>
-<td>d</td>
-<td>d</td>
-</tr>
-</tbody></table>
-<p>代码测试：</p>
-<pre class=" language-python"><code class="language-python">console<span class="token punctuation">.</span>log<span class="token punctuation">(</span><span class="token string">"你好呀！！！！"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
-<p>注意：这里因为我放在md文件中的，所以加上了\，不解析```，实际测试时请去掉\。</p>
-<p>图片测试：</p>
-<p><img src="http://mculover666.cn/blog/20191031/R4mWMXsrRKxu.png?imageslim"></p>
-<p>引用测试：</p>
-<blockquote>
-<p>这是一条引用</p>
+                <h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><blockquote>
+<p>HTML是一种用来描述网页的超文本语言，也是构成网页文档的主要语言。</p>
 </blockquote>
-<h4 id="2"><a href="#2" class="headerlink" title="2"></a>2</h4><p>无序列表测试：</p>
-<ul>
-<li>哈哈</li>
-<li>嘿嘿</li>
-<li>吼吼</li>
-</ul>
-<h4 id="3"><a href="#3" class="headerlink" title="3"></a>3</h4><h4 id="4"><a href="#4" class="headerlink" title="4"></a>4</h4><p>参考文献:<a target="_blank" rel="noopener" href="https://www.baidu.com/">百度</a></p>
+<h4 id="HTML的主要网页结构"><a href="#HTML的主要网页结构" class="headerlink" title="HTML的主要网页结构"></a>HTML的主要网页结构</h4><p> 1.header标签:头部分结构<br> 2.nav标签:导航条部分结构<br> 3.main标签:主核心部分内容<br> 4.footer标签:页尾</p>
+<p>代码示例：</p>
+<pre class=" language-html"><code class="language-html">1 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
+2 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span><span class="token punctuation">></span></span>...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">></span></span>
+3 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span><span class="token punctuation">></span></span>...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">></span></span>
+4 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span><span class="token punctuation">></span></span>...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">></span></span>
+5 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>footer</span><span class="token punctuation">></span></span>...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>footer</span><span class="token punctuation">></span></span>
+6 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
+</code></pre>
+<h4 id="HTML的页面优化"><a href="#HTML的页面优化" class="headerlink" title="HTML的页面优化"></a>HTML的页面优化</h4><p> 1.减少网站对http的请求</p>
+<p> 2.css文件写在头部</p>
+<p> 3.javascript文件写在尾部或者异步</p>
+<p> 4.减少dom节点</p>
+<p> 5.减少重绘和回流</p>
+<p> 6.压缩图片 </p>
+<blockquote>
+<p>png: 无损压缩的图片格式  带透明通道 （小图）      jpeg  有损压缩 （大图）     gif  带透明通道   带动态通道  有损压缩的格式（动图）</p>
+</blockquote>
 
                 
             </div>
@@ -963,7 +943,7 @@
             contentSelector: '#articleContent',
             headingsOffset: -($(window).height() * 0.4 - 45),
             collapseDepth: Number('0'),
-            headingSelector: 'h1,h2, h3, h4'
+            headingSelector: 'h1, h2, h3, h4, h5, h6'
         });
 
         // modify the toc link href to support Chinese.
@@ -975,7 +955,7 @@
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h1,h2, h3, h4').each(function () {
+        $('#articleContent').children('h1, h2, h3, h4, h5, h6').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -1040,20 +1020,111 @@
 
     <footer class="page-footer bg-color">
     
-    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 20px;
+        color: CornflowerBlue;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme=''
+                   loop='all'
+                   order='list'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2021</span>
+                <span id="year">2021</span>
             
-            <span id="year">2019</span>
+            <span id="year">2021</span>
             <a href="/about" target="_blank">Jackson hua</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
+			 
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2021";
+                    var startMonth = "3";
+                    var startDate = "28";
+                    var startHour = "12";
+                    var startMinute = "38";
+                    var startSecond = "11";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+			<br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">176</span>&nbsp;字
+                class="white-color">932</span>&nbsp;字
             
             
             
@@ -1070,8 +1141,6 @@
                 |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
                     class="white-color"></span>&nbsp;人
             </span>
-            
-            <br>
             
             <br>
             

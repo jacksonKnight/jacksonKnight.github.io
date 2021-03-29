@@ -390,7 +390,7 @@
 
     <script>
         // 每天切换 banner 图.  Switch banner image every day.
-        $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
+        $('.bg-cover').css('background-image', 'url(/medias/banner/2.jpg)');
     </script>
 
     </div>
@@ -409,20 +409,11 @@
             <div class="tag-chips">
                 
                 
-                <a href="/tags/Vue/" title="Vue: 2">
+                <a href="/tags/HTML/" title="HTML: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Vue" style="background-color: #F9EBEA;">Vue
+                            data-tagname="HTML" style="background-color: #F9EBEA;">HTML
                         <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/React/" title="React: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="React" style="background-color: #F5EEF8;">React
-                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
@@ -430,16 +421,7 @@
                 <a href="/tags/JavaScript/" title="JavaScript: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="JavaScript" style="background-color: #D5F5E3;">JavaScript
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/HTML/" title="HTML: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="HTML" style="background-color: #E8F8F5;">HTML
+                            data-tagname="JavaScript" style="background-color: #F5EEF8;">JavaScript
                         <span class="tag-length">2</span>
                     </span>
                 </a>
@@ -448,7 +430,25 @@
                 <a href="/tags/CSS/" title="CSS: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-active "
-                            data-tagname="CSS" style="background-color: #FEF9E7;">CSS
+                            data-tagname="CSS" style="background-color: #D5F5E3;">CSS
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Vue/" title="Vue: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Vue" style="background-color: #E8F8F5;">Vue
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/React/" title="React: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="React" style="background-color: #FEF9E7;">React
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -504,20 +504,111 @@
 
     <footer class="page-footer bg-color">
     
-    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 20px;
+        color: CornflowerBlue;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme=''
+                   loop='all'
+                   order='list'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2021</span>
+                <span id="year">2021</span>
             
-            <span id="year">2019</span>
+            <span id="year">2021</span>
             <a href="/about" target="_blank">Jackson hua</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
+			 
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2021";
+                    var startMonth = "3";
+                    var startDate = "28";
+                    var startHour = "12";
+                    var startMinute = "38";
+                    var startSecond = "11";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+			<br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">176</span>&nbsp;字
+                class="white-color">932</span>&nbsp;字
             
             
             
@@ -534,8 +625,6 @@
                 |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
                     class="white-color"></span>&nbsp;人
             </span>
-            
-            <br>
             
             <br>
             
