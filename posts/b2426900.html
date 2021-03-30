@@ -796,7 +796,65 @@
     .valine-card .card-content {
         padding: 20px 20px 5px 20px;
     }
+   
+   #vcomments .veditor {
+    background-image: url(https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgba(255, 255, 255, 0);
+    resize: vertical
+}
+	#vcomments .vcards .vcard {
+     padding: 15px 20px 0 20px;
+     border-radius: 10px;
+     margin-bottom: 15px;
+     box-shadow: 0 0 4px 1px rgba(0, 0, 0, .12);
+     transition: all .3s
+}
 
+    #vcomments .vcards .vcard:hover {
+     box-shadow: 0 0 8px 3px rgba(0, 0, 0, .12)
+}
+
+    #vcomments .vcards .vcard .vh .vcard {
+     border: none;
+     box-shadow: none;
+}
+ 
+	img.vimg {
+     transition: all 1s   /* 旋转时间为 1s */
+}
+
+    img.vimg:hover {
+     transform: rotate(360deg);
+     -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+     -o-transform: rotate(360deg);
+     -ms-transform: rotate(360deg);
+}
+	
+	#vcomments .vheader .vnick {
+      width: 28%;
+	  margin-left: 34px;
+      padding-left: 10px;
+      padding-right: 10px;
+}
+
+    #vcomments .vheader .vmail {
+      width: 28%;
+      margin-left: 34px;
+      padding-left: 10px;
+      padding-right: 10px;
+}
+
+    #vcomments .vheader .vlink {
+      width: 28%;
+      margin-left: 34px;
+      padding-left: 10px;
+      padding-right: 10px;
+}
+	 
     #vcomments textarea {
         box-sizing: border-box;
         background: url("/") 100% 100% no-repeat;
@@ -1032,24 +1090,36 @@
     <div id="vcomments" class="card-content" style="display: grid">
     </div>
 </div>
+
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<script type="text/javascript">
+ jinrishici.load(function(result) {
+     var jrsc_plac =  result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin.dynasty + " · " + result.data.origin.author;
+     document.getElementById("veditor").setAttribute("placeholder",jrsc_plac);
+ })
+</script>
+
 <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 <script src="/libs/valine/av-min.js"></script>
 <script src="https://unpkg.com/valine/dist/Valine.min.js"></script>
-<script src="../js/Valine.min.js"></script>
+
 <script>
     new Valine({
         el: '#vcomments',
         appId: 'UgWSE2GkAGQ3fgedCOIwLmnO-gzGzoHsz',
+		admin_email: '3073817588@qq.com',
         appKey: 'LghhQrWMLjxKam0FavrcODz1',
-        notify: 'true' === 'true',
+        notify: 'false' === 'true',
         verify: 'true' === 'true',
-        visitor: '' === 'true',
+        visitor: 'true' === 'true',
         avatar: 'monsterid',
         pageSize: '10',
         lang: 'zh-cn',
-        placeholder: '昵称填写qq可以显示qq头像和昵称哦~'
+        placeholder: '填写邮箱可以及时收到回复喔 ʕง•ᴥ•ʔง'
     });
-</script>
+	$(document).ready(function(){ $("#vcomments").on('click', 'span.vat',function(){ $(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap")); $('textarea#veditor').focus(); }) }) </script> <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script> 
+	<script type="text/javascript"> jinrishici.load(function(result) { var jrsc_plac = result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin.dynasty + " · " + result.data.origin.author document.getElementById("veditor").setAttribute("placeholder",jrsc_plac); }); </script>
+
 
 <!--酷Q推送-->
 
