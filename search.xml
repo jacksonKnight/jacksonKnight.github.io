@@ -32,20 +32,8 @@
 ]]></content>
   </entry>
   <entry>
-    <title>初识CSS</title>
-    <url>/posts/49131c96.html</url>
-    <content><![CDATA[<p>CSS正在手码中…</p>
-]]></content>
-      <categories>
-        <category>CSS</category>
-      </categories>
-      <tags>
-        <tag>CSS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>初识JavaScript</title>
-    <url>/posts/6e566f2f.html</url>
+    <title>事件冒泡与事件委托</title>
+    <url>/posts/d578a49e.html</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>JavaScript</category>
@@ -55,16 +43,15 @@
       </tags>
   </entry>
   <entry>
-    <title>我的第一篇博客文章</title>
-    <url>/posts/b24dd347.html</url>
-    <content><![CDATA[<p>##第一章<br>内容：</p>
-<hr>
-<p>##第二章<br>内容：</p>
-<hr>
-<p>##参考文献<br><a href="https://jacksonknight.github.io/">https://jacksonKnight.github.io</a></p>
+    <title>初识CSS</title>
+    <url>/posts/49131c96.html</url>
+    <content><![CDATA[<p>CSS正在手码中…</p>
 ]]></content>
+      <categories>
+        <category>CSS</category>
+      </categories>
       <tags>
-        <tag>HTML</tag>
+        <tag>CSS</tag>
       </tags>
   </entry>
   <entry>
@@ -100,8 +87,19 @@
       </tags>
   </entry>
   <entry>
-    <title>事件冒泡与事件委托</title>
-    <url>/posts/d578a49e.html</url>
+    <title>初识Vue</title>
+    <url>/posts/5f9a6bb0.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Vue</category>
+      </categories>
+      <tags>
+        <tag>Vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>初识JavaScript</title>
+    <url>/posts/6e566f2f.html</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>JavaScript</category>
@@ -111,14 +109,16 @@
       </tags>
   </entry>
   <entry>
-    <title>初识Vue</title>
-    <url>/posts/5f9a6bb0.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Vue</category>
-      </categories>
+    <title>我的第一篇博客文章</title>
+    <url>/posts/b24dd347.html</url>
+    <content><![CDATA[<p>##第一章<br>内容：</p>
+<hr>
+<p>##第二章<br>内容：</p>
+<hr>
+<p>##参考文献<br><a href="https://jacksonknight.github.io/">https://jacksonKnight.github.io</a></p>
+]]></content>
       <tags>
-        <tag>Vue</tag>
+        <tag>HTML</tag>
       </tags>
   </entry>
 </search>
