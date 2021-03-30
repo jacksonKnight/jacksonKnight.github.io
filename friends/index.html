@@ -645,18 +645,6 @@
         </div>
 
         
-            <div class="card">
-                <div class="card-content">
-                    <h3 id="申请要求："><a href="#申请要求：" class="headerlink" title="申请要求："></a>申请要求：</h3><p>1、内容持续更新且可以稳定访问<br>        2、网页整洁无繁杂广告推广<br>        3、博客主页被百度或谷歌等搜索引擎收录<br>        4、头像能够快速加载<br>        5、拥有独立域名</p>
-<h3 id="友链声明："><a href="#友链声明：" class="headerlink" title="友链声明："></a>友链声明：</h3><p>1、本站会定期清理无法访问的友链，如果更换了链接信息请至评论区留言，谢谢合作！<br>        2、本站会定期查看双方是否互为友链，如果取消本站友链，本站也会将您的友链移除</p>
-<h3 id="申请方式："><a href="#申请方式：" class="headerlink" title="申请方式："></a>申请方式：</h3><p>先将本站的友链添加到您的友链，相关信息如下<br>        然后按照以下格式在本站留言区留言，待博主为您添上友链</p>
-<blockquote>
-<p>名         称：JacksonKnight<br>              头像链接：<a target="_blank" rel="noopener" href="https://c-ssl.duitang.com/uploads/blog/202012/30/20201230102155_5d256.thumb.1000_0.jpeg">https://c-ssl.duitang.com/uploads/blog/202012/30/20201230102155_5d256.thumb.1000_0.jpeg</a><br>              主页链接：<a href="https://jacksonknight.github.io/">https://jacksonKnight.github.io</a><br>              说明信息：不鸣则已 一鸣惊人</p>
-</blockquote>
-
-                </div>
-            </div>
-        
 
         <div class="card">
 
@@ -913,19 +901,17 @@
     <div id="vcomments" class="card-content" style="display: grid">
     </div>
 </div>
-
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 <script src="/libs/valine/av-min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+<script src="https://unpkg.com/valine/dist/Valine.min.js"></script>
 <script src="../js/Valine.min.js"></script>
 <script>
     new Valine({
         el: '#vcomments',
-		lang: 'zh-cn',
-		admin_email: '13422155836@163.com',
         appId: 'UgWSE2GkAGQ3fgedCOIwLmnO-gzGzoHsz',
         appKey: 'LghhQrWMLjxKam0FavrcODz1',
-        notify: 'false' === 'true',
-        verify: 'false' === 'true',
+        notify: 'true' === 'true',
+        verify: 'true' === 'true',
         visitor: '' === 'true',
         avatar: 'monsterid',
         pageSize: '10',
