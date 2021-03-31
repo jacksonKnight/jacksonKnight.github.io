@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>事件冒泡与事件委托</title>
+    <url>/posts/d578a49e.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Vue与React的区别</title>
     <url>/posts/4d6df6e0.html</url>
     <content><![CDATA[]]></content>
@@ -11,6 +22,18 @@
       <tags>
         <tag>Vue</tag>
         <tag>React</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>初识CSS</title>
+    <url>/posts/49131c96.html</url>
+    <content><![CDATA[<p>CSS正在手码中…</p>
+]]></content>
+      <categories>
+        <category>CSS</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
       </tags>
   </entry>
   <entry>
@@ -30,29 +53,6 @@
 </code></pre>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>事件冒泡与事件委托</title>
-    <url>/posts/d578a49e.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>JavaScript</category>
-      </categories>
-      <tags>
-        <tag>JavaScript</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>初识CSS</title>
-    <url>/posts/49131c96.html</url>
-    <content><![CDATA[<p>CSS正在手码中…</p>
-]]></content>
-      <categories>
-        <category>CSS</category>
-      </categories>
-      <tags>
-        <tag>CSS</tag>
-      </tags>
   </entry>
   <entry>
     <title>初识HTML</title>
@@ -87,17 +87,6 @@
       </tags>
   </entry>
   <entry>
-    <title>初识Vue</title>
-    <url>/posts/5f9a6bb0.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Vue</category>
-      </categories>
-      <tags>
-        <tag>Vue</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>初识JavaScript</title>
     <url>/posts/6e566f2f.html</url>
     <content><![CDATA[]]></content>
@@ -106,6 +95,17 @@
       </categories>
       <tags>
         <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>初识Vue</title>
+    <url>/posts/5f9a6bb0.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Vue</category>
+      </categories>
+      <tags>
+        <tag>Vue</tag>
       </tags>
   </entry>
   <entry>
